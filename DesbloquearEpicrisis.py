@@ -3,9 +3,9 @@ import pyautogui
 cx_Oracle.init_oracle_client(lib_dir=r"C:\oracle") 
 
 connection = cx_Oracle.connect(
-             user='empresa20',
-             password='admin20',
-             dsn= '100.65.33.115/gzd',
+             user='',
+             password='',
+             dsn= '',
              encoding = 'UTF-8'
                         )
     
